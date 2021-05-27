@@ -1,0 +1,6 @@
+# IntelligentTrashBin-
+Trabalho de IOT
+
+O projeto “The Intelligent Trash Bin System Based on Arduino”, é uma lixeira automática no qual ao passar a mão, qualquer parte do corpo ou até mesmo algum objeto próximo à parte superior dela, ela irá abrir e permanecer aberta pôr tempo suficiente para que o indivíduo possa jogar seu lixo. Tem como objetivo ajudar deficientes físicos, como cadeirante que não consegue pisar nos pedais de acionamento das lixeiras convencionais, e sempre acabam colocando a mão em contato com o lixo, podendo se contaminar. Pode ser também utilizada em banheiros públicos ou em hospitais para evitar o contato com germes e bactérias ao tentar abri-la (SIENFRA 2009).  
+	A princípio, a lixeira terá três posições aberta, fechada e em movimento. Quando ela estiver fechada, um LED vermelho irá permanecer aceso; no movimento de abertura ou fechamento dela, o LED amarelo irá ficar aceso, indicando movimento; ao abrir totalmente o LED verde ficará aceso indicando que a lixeira pode ser utilizada.
+Será utilizado também o protocolo firmata junto ao node red com dashboard, para os sensores, isso é, ao abrir ou fechar a lixeira aparecerá uma mensagem de “Lixeira Aberta” e “Lixeira Fechada” respectivamente.
